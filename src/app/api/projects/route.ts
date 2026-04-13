@@ -4,6 +4,8 @@ import { Project } from '@/models/Project';
 import jwt from 'jsonwebtoken';
 import { cookies } from 'next/headers';
 
+export const dynamic = 'force-dynamic';
+
 const INITIAL_PROJECTS = [
   {
     title: 'darktrace.soc',

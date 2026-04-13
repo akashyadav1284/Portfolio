@@ -9,7 +9,7 @@ const orbitron = Orbitron({ subsets: ['latin'], variable: '--font-orbitron', dis
 const spaceMono = Space_Mono({ weight: ['400', '700'], subsets: ['latin'], variable: '--font-space-mono', display: 'swap' });
 
 export const metadata: Metadata = {
-  title: 'Akash Yadav | Full Stack Developer | ML & Web3',
+  title: 'Akash Yadav | Full Stack Developer',
   description: 'AkashVerse-code and connect',
   keywords: ['Akash Yadav', 'Portfolio', 'Full Stack Developer', 'MERN', 'AI', 'Web3', 'Cyberpunk', '3D Website'],
   authors: [{ name: 'Akash Yadav' }],

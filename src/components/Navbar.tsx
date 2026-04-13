@@ -65,6 +65,22 @@ export default function Navbar() {
 
           {/* Right Action Buttons (Desktop) */}
           <div className="hidden lg:flex items-center space-x-4">
+            {/* Resume Button */}
+            <a 
+              href="/Akash_Yadav_Resume.pdf"
+              download="Akash_Yadav_Resume.pdf"
+              title="Download Resume"
+              className="relative text-[10px] font-mono font-bold uppercase tracking-[0.15em] text-cyan-300 px-6 py-2.5 rounded-full border border-cyan-500/50 bg-cyan-950/20 hover:bg-cyan-500 hover:text-white transition-all duration-300 shadow-[0_0_10px_rgba(6,182,212,0.2)] hover:shadow-[0_0_20px_rgba(6,182,212,0.8)] group overflow-hidden flex items-center hover:scale-105"
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-600/50 to-blue-600/50 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out" />
+              <span className="relative z-10 flex items-center gap-2">
+                <svg className="w-3.5 h-3.5 animate-[pulse_2s_ease-in-out_infinite]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                RESUME
+              </span>
+            </a>
+
             {/* Admin Button */}
             <Link 
               href="/admin" 
@@ -134,17 +150,29 @@ export default function Navbar() {
                 transition={{ delay: 0.5 }}
                 className="flex flex-col w-full gap-4 mt-8 max-w-xs"
               >
+                <a 
+                  href="/Akash_Yadav_Resume.pdf"
+                  download="Akash_Yadav_Resume.pdf"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-center gap-2 font-mono font-bold uppercase tracking-[0.2em] text-cyan-300 py-4 rounded-xl border border-cyan-500/50 bg-cyan-950/20 hover:bg-cyan-500 hover:text-white transition-all duration-300 shadow-[0_0_15px_rgba(6,182,212,0.3)] hover:scale-105 hover:shadow-[0_0_25px_rgba(6,182,212,0.6)]"
+                >
+                  <svg className="w-5 h-5 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                  </svg>
+                  RESUME
+                </a>
+
                 <Link 
                   href="/admin" 
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-center font-mono font-bold uppercase tracking-[0.2em] text-red-400 py-4 rounded-xl border border-red-500/50 bg-red-950/20 hover:bg-red-500 hover:text-white transition-all duration-300 shadow-[0_0_15px_rgba(239,68,68,0.3)]"
+                  className="text-center font-mono font-bold uppercase tracking-[0.2em] text-red-400 py-4 rounded-xl border border-red-500/50 bg-red-950/20 hover:bg-red-500 hover:text-white transition-all duration-300 shadow-[0_0_15px_rgba(239,68,68,0.3)] active:scale-95"
                 >
                   ADMIN PORTAL
                 </Link>
                 <Link 
                   href="#contact" 
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-center font-mono font-bold uppercase tracking-[0.2em] text-magenta-300 py-4 rounded-xl border border-magenta-500/50 bg-magenta-950/20 hover:bg-magenta-500 hover:text-white transition-all duration-300 shadow-[0_0_15px_rgba(217,70,239,0.3)]"
+                  className="text-center font-mono font-bold uppercase tracking-[0.2em] text-magenta-300 py-4 rounded-xl border border-magenta-500/50 bg-magenta-950/20 hover:bg-magenta-500 hover:text-white transition-all duration-300 shadow-[0_0_15px_rgba(217,70,239,0.3)] active:scale-95"
                 >
                   JOIN NETWORK
                 </Link>
