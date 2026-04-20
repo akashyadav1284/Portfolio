@@ -8,9 +8,7 @@ import { useRef, useEffect, useState } from 'react';
 // ------------------------------------
 const SEQUENCE = [
   "Welcome to AKASHVERSE",
-  "Where Imagination Meets Reality...",
-  "I Don't Just Build Websites...",
-  "I Create Experiences."
+
 ];
 
 // ------------------------------------
