@@ -162,7 +162,7 @@ export default function AboutSection() {
                 </li>
                 <li className="flex items-center gap-4">
                   <span className="text-cyan-700 w-24">YEAR:</span>
-                  <span className="text-white">1st Year</span>
+                  <span className="text-white">2nd Year</span>
                 </li>
                 <li className="flex items-center gap-4">
                   <span className="text-cyan-700 w-24">COLLEGE:</span>
