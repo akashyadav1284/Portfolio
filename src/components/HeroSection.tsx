@@ -132,7 +132,7 @@ export default function HeroSection() {
           className="relative mb-6 group cursor-default"
         >
           <h1 className="text-6xl sm:text-7xl md:text-[8rem] font-black font-orbitron uppercase tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-cyan-100 to-cyan-500 drop-shadow-[0_0_20px_rgba(0,243,255,0.4)] leading-none transition-all duration-500 group-hover:drop-shadow-[0_0_40px_rgba(0,243,255,0.8)]">
-            KUNAL YADAV
+            KUNAL SINGH
           </h1>
           <div className="absolute inset-0 bg-cyan-400/10 blur-[50px] animate-pulse -z-10 rounded-full group-hover:bg-cyan-400/20 transition-all duration-500" />
         </motion.div>
