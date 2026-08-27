@@ -7,7 +7,7 @@ import { useRef, useEffect, useState } from 'react';
 // Typewriter Sequences
 // ------------------------------------
 const SEQUENCE = [
-  "Welcome to AKASHVERSE",
+  "Welcome to KUNALVERSE",
 
 ];
 
@@ -132,7 +132,7 @@ export default function HeroSection() {
           className="relative mb-6 group cursor-default"
         >
           <h1 className="text-6xl sm:text-7xl md:text-[8rem] font-black font-orbitron uppercase tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-cyan-100 to-cyan-500 drop-shadow-[0_0_20px_rgba(0,243,255,0.4)] leading-none transition-all duration-500 group-hover:drop-shadow-[0_0_40px_rgba(0,243,255,0.8)]">
-            AKASH YADAV
+            KUNAL YADAV
           </h1>
           <div className="absolute inset-0 bg-cyan-400/10 blur-[50px] animate-pulse -z-10 rounded-full group-hover:bg-cyan-400/20 transition-all duration-500" />
         </motion.div>
@@ -151,7 +151,7 @@ export default function HeroSection() {
         >
           <div className="absolute inset-0 w-1/4 h-full bg-gradient-to-r from-transparent via-cyan-300/40 to-transparent -translate-x-[200%] skew-x-[30deg] group-hover:translate-x-[400%] transition-transform duration-1000 ease-out" />
           <span className="relative z-10 font-mono text-sm md:text-base uppercase tracking-[0.4em] font-bold text-white group-hover:text-cyan-300 transition-colors">
-            ENTER AKASHVERSE
+            ENTER KUNALVERSE
           </span>
         </motion.a>
       </motion.div>

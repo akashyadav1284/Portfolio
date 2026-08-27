@@ -8,7 +8,7 @@ export default function MobileWhatsAppButton() {
   const [expanded, setExpanded] = useState(false);
   
   const phoneNumber = '919467658854';
-  const customMessage = "Hi Akash, I'm interested in working with you.";
+  const customMessage = "Hi Kunal, I'm interested in working with you.";
   const link = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(customMessage)}`;
 
   useEffect(() => {

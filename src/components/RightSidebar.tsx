@@ -25,7 +25,7 @@ export default function RightSidebar() {
            <span className="text-red-500 font-bold uppercase">CLEARANCE: OMEGA</span>
         </div>
         <div className="text-neon-cyan/70 font-bold uppercase pt-1">
-          AKASH_NET V2.0
+          KUNAL_NET V2.0
         </div>
       </div>
 
