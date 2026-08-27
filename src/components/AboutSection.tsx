@@ -45,8 +45,8 @@ const GlitchHeading = ({ text, delay = 0 }: { text: string; delay?: number }) =>
 // -------------------------------------------------------------
 const Social3DIcons = () => {
   const links = [
-    { name: 'GitHub', icon: <Github size={24} />, url: 'https://github.com/kunalsingh1284', color: 'shadow-[0_0_20px_rgba(255,255,255,0.4)]', hoverBorder: 'hover:border-white' },
-    { name: 'LinkedIn', icon: <Linkedin size={24} />, url: 'https://www.linkedin.com/in/kunal-singh-403676379/', color: 'shadow-[0_0_20px_rgba(0,119,181,0.6)]', hoverBorder: 'hover:border-[#0077b5]' },
+    { name: 'GitHub', icon: <Github size={24} />, url: 'https://github.com/kunalrajpuroggg', color: 'shadow-[0_0_20px_rgba(255,255,255,0.4)]', hoverBorder: 'hover:border-white' },
+    { name: 'LinkedIn', icon: <Linkedin size={24} />, url: 'https://www.linkedin.com/in/kunal-rajpurohit-7b675b37a', color: 'shadow-[0_0_20px_rgba(0,119,181,0.6)]', hoverBorder: 'hover:border-[#0077b5]' },
     { name: 'Instagram', icon: <Instagram size={24} />, url: 'https://instagram.com/akasxh_singh', color: 'shadow-[0_0_20px_rgba(225,48,108,0.6)]', hoverBorder: 'hover:border-[#e1306c]' },
     { name: 'Gmail', icon: <Mail size={24} />, url: 'mailto:kunalsingh9992462520@gmail.com', color: 'shadow-[0_0_20px_rgba(234,67,53,0.6)]', hoverBorder: 'hover:border-[#ea4335]' },
     { name: 'CommLink', icon: <Phone size={24} />, url: 'tel:+919467658854', color: 'shadow-[0_0_20px_rgba(16,185,129,0.6)]', hoverBorder: 'hover:border-[#10b981]' }
