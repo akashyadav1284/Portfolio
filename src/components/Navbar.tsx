@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },
+  { name: 'Resume', href: 'https://drive.google.com/file/d/1ixXls5S3pACJ32w5oug22LMg_mdqwIkp/view?usp=sharing', external: true },
 ];
 
 export default function Navbar() {
@@ -53,6 +54,7 @@ export default function Navbar() {
               <Link 
                 key={link.name} 
                 href={link.href}
+                {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 className="relative text-xs font-mono font-bold uppercase tracking-[0.1em] text-slate-300 hover:text-white px-5 py-2.5 rounded-full transition-colors group overflow-hidden"
               >
                 <span className="relative z-10">{link.name}</span>
@@ -120,6 +122,7 @@ export default function Navbar() {
                   <Link 
                     href={link.href}
                     onClick={() => setMobileMenuOpen(false)}
+                    {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                     className="text-2xl font-orbitron font-bold uppercase tracking-widest text-slate-300 hover:text-cyan-400 transition-colors block py-4 border-b border-white/5 hover:border-cyan-500/50 w-full"
                   >
                     {link.name}
