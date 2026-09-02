@@ -273,7 +273,7 @@ export default function AdminPage() {
       <div className="w-full md:w-64 bg-black/60 border-r border-cyan-900/50 flex flex-col backdrop-blur-md z-20 shrink-0">
          <div className="p-6 border-b border-cyan-900/50">
            <h1 className="text-xl font-orbitron font-bold tracking-widest text-cyan-400 flex items-center gap-3 drop-shadow-[0_0_10px_rgba(0,243,255,0.5)]">
-             KUNAL_OS
+             AKASH_OS
            </h1>
            <p className="text-xs text-cyan-700 font-mono mt-2 uppercase">Root Access Granted</p>
          </div>
@@ -297,7 +297,7 @@ export default function AdminPage() {
             ))}
          </div>
          <div className="p-4 border-t border-cyan-900/50 flex flex-col gap-2">
-            <a href="/Kunal_resume.pdf" download="Kunal_resume.pdf" className="w-full text-center text-xs font-mono font-bold tracking-widest py-3 border border-cyan-900/30 bg-cyan-950/20 text-cyan-500 hover:text-cyan-400 hover:border-cyan-500 hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] rounded transition uppercase block">DOWNLOAD RESUME</a>
+            <a href="/Akash_resume.pdf" download="Akash_resume.pdf" className="w-full text-center text-xs font-mono font-bold tracking-widest py-3 border border-cyan-900/30 bg-cyan-950/20 text-cyan-500 hover:text-cyan-400 hover:border-cyan-500 hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] rounded transition uppercase block">DOWNLOAD RESUME</a>
             <button onClick={() => router.push('/')} className="w-full text-xs font-mono font-bold tracking-widest py-3 border border-slate-800 rounded text-slate-400 hover:text-white hover:bg-white/5 transition uppercase">FRONTEND</button>
             <button onClick={handleLogout} className="w-full text-xs font-mono font-bold tracking-widest py-3 border border-red-900/30 bg-red-950/20 text-red-500 hover:text-red-400 hover:border-red-500 hover:shadow-[0_0_15px_rgba(239,68,68,0.3)] rounded transition uppercase">DISCONNECT</button>
          </div>

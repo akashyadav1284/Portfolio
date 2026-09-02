@@ -45,10 +45,10 @@ const GlitchHeading = ({ text, delay = 0 }: { text: string; delay?: number }) =>
 // -------------------------------------------------------------
 const Social3DIcons = () => {
   const links = [
-    { name: 'GitHub', icon: <Github size={24} />, url: 'https://github.com/kunalrajpuroggg', color: 'shadow-[0_0_20px_rgba(255,255,255,0.4)]', hoverBorder: 'hover:border-white' },
-    { name: 'LinkedIn', icon: <Linkedin size={24} />, url: 'https://www.linkedin.com/in/kunal-rajpurohit-7b675b37a', color: 'shadow-[0_0_20px_rgba(0,119,181,0.6)]', hoverBorder: 'hover:border-[#0077b5]' },
-    { name: 'Instagram', icon: <Instagram size={24} />, url: 'https://instagram.com/akasxh_singh', color: 'shadow-[0_0_20px_rgba(225,48,108,0.6)]', hoverBorder: 'hover:border-[#e1306c]' },
-    { name: 'Gmail', icon: <Mail size={24} />, url: 'mailto:kunalsingh9992462520@gmail.com', color: 'shadow-[0_0_20px_rgba(234,67,53,0.6)]', hoverBorder: 'hover:border-[#ea4335]' },
+    { name: 'GitHub', icon: <Github size={24} />, url: 'https://github.com/akashyadav1284', color: 'shadow-[0_0_20px_rgba(255,255,255,0.4)]', hoverBorder: 'hover:border-white' },
+    { name: 'LinkedIn', icon: <Linkedin size={24} />, url: 'https://www.linkedin.com/in/akasxhyadav/', color: 'shadow-[0_0_20px_rgba(0,119,181,0.6)]', hoverBorder: 'hover:border-[#0077b5]' },
+    { name: 'Instagram', icon: <Instagram size={24} />, url: 'https://www.instagram.com/akasxh_yadav/', color: 'shadow-[0_0_20px_rgba(225,48,108,0.6)]', hoverBorder: 'hover:border-[#e1306c]' },
+    { name: 'Gmail', icon: <Mail size={24} />, url: 'mailto:akashyadav9992462520@gmail.com', color: 'shadow-[0_0_20px_rgba(234,67,53,0.6)]', hoverBorder: 'hover:border-[#ea4335]' },
     { name: 'CommLink', icon: <Phone size={24} />, url: 'tel:+919467658854', color: 'shadow-[0_0_20px_rgba(16,185,129,0.6)]', hoverBorder: 'hover:border-[#10b981]' }
   ];
 
@@ -154,7 +154,7 @@ export default function AboutSection() {
               <ul className="space-y-4 font-mono text-sm tracking-widest text-slate-400">
                 <li className="flex items-center gap-4">
                   <span className="text-cyan-700 w-24">NAME:</span>
-                  <span className="text-white">Kunal Singh</span>
+                  <span className="text-white">Akash Yadav</span>
                 </li>
                 <li className="flex items-center gap-4">
                   <span className="text-cyan-700 w-24">COURSE:</span>

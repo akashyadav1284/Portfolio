@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const BOOT_MESSAGES = [
-  "KUNAL_NET Initializing...",
+  "AKASH_NET Initializing...",
   "Security Clearance Check",
   "Robotics AI Network Sync",
   "Loading Neural Modules",
@@ -91,7 +91,7 @@ export function BootSequence({ onComplete }: { onComplete: () => void }) {
           {/* Header */}
           <div className="flex justify-between items-end border-b border-cyan-800/50 pb-4">
             <h1 className="text-3xl md:text-5xl font-bold tracking-widest uppercase flex items-center shadow-cyan-500/50 drop-shadow-[0_0_15px_rgba(6,182,212,0.8)]">
-              KUNAL _OS
+              AKASH _OS
               <span className="text-sm font-normal ml-4 text-cyan-600">v2.0</span>
             </h1>
             <div className="text-sm tracking-widest text-cyan-600 hidden md:block">

@@ -5,7 +5,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'fallback-super-secret-key-12345';
-const DEFAULT_EMAIL = process.env.ADMIN_ID || 'kunal1284';
+const DEFAULT_EMAIL = process.env.ADMIN_ID || 'akash1284';
 const DEFAULT_PASSWORD = process.env.ADMIN_PASSWORD || '340515';
 
 export async function POST(req: Request) {

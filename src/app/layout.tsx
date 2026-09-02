@@ -9,10 +9,10 @@ const orbitron = Orbitron({ subsets: ['latin'], variable: '--font-orbitron', dis
 const spaceMono = Space_Mono({ weight: ['400', '700'], subsets: ['latin'], variable: '--font-space-mono', display: 'swap' });
 
 export const metadata: Metadata = {
-  title: 'Kunal Singh | Full Stack Developer',
-  description: 'KunalVerse-code and connect',
-  keywords: ['Kunal Singh', 'Portfolio', 'Full Stack Developer', 'MERN', 'AI', 'Web3', 'Cyberpunk', '3D Website'],
-  authors: [{ name: 'Kunal Singh' }],
+  title: 'Akash Yadav | Full Stack Developer',
+  description: 'AkashVerse-code and connect',
+  keywords: ['Akash Yadav', 'Portfolio', 'Full Stack Developer', 'MERN', 'AI', 'Web3', 'Cyberpunk', '3D Website'],
+  authors: [{ name: 'Akash Yadav' }],
   robots: 'index, follow',
 };
 

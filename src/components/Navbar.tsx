@@ -8,7 +8,6 @@ const NAV_LINKS = [
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },
-  { name: 'Resume', href: 'https://drive.google.com/file/d/1ixXls5S3pACJ32w5oug22LMg_mdqwIkp/view?usp=sharing', external: true },
 ];
 
 export default function Navbar() {
@@ -44,7 +43,7 @@ export default function Navbar() {
                <div className="w-3 h-3 md:w-4 md:h-4 rounded-full bg-gradient-to-br from-magenta-400 to-cyan-500 shadow-[0_0_10px_rgba(217,70,239,0.5)] group-hover:animate-pulse"></div>
             </div>
             <span className="text-xl md:text-3xl font-orbitron font-bold text-white tracking-widest leading-none mt-1 drop-shadow-[0_0_5px_rgba(255,255,255,0.4)] group-hover:text-cyan-400 group-hover:drop-shadow-[0_0_15px_rgba(6,182,212,0.8)] transition-all duration-300">
-              KUNALVERSE
+              AKASHVERSE
             </span>
           </Link>
 
