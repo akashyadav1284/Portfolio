@@ -8,6 +8,7 @@ const NAV_LINKS: { name: string; href: string; external?: boolean }[] = [
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },
+  { name: 'Resume', href: 'https://drive.google.com/file/d/1ROo8SozyObXt6w7WHZ5fFog2OWwpz1eq/view?usp=sharing', external: true },
 ];
 
 export default function Navbar() {
